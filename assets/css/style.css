@@ -49,9 +49,17 @@ button{
     color: #777777;
     display: inline;
 }
-button:hover{
+button:active{
+    outline:none;
+    text-decoration: underline;
     color: #4aaaa5;
+
 }
+button:focus{
+    color: #4aaaa5;
+    outline: none;
+}
+
 .button1,.button2{
     display: inline;
     border-right: 1px solid #cccccc;
@@ -68,7 +76,7 @@ button:hover{
 } */
 
 body{
-    background: grey;
+    background-image: url("../images/background-pattern.png");
     font-family: 'Arial', 'Helvetica Neue', "Helvetica", "sans-serif";
     color: #777777;
     margin: 0px;
