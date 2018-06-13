@@ -114,6 +114,7 @@ body{
 
 p{
     margin-bottom:20px;
+    text-align: justify;
 }
 
 ol{
@@ -121,7 +122,7 @@ ol{
 }
 img.profile{
     float:left;
-    margin: 0px 20px 20px 0px;
+    margin: 0px 30px 30px 0px;
 }
 .footer {
     background: #666666;
